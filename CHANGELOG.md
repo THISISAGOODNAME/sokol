@@ -6,7 +6,7 @@
   stashed directly in a Dear ImGui ImTextureID handle instead of in a separate backing
   object (this is possible now because ImTextureID is now guaranteed to be 64 bits,
   so it can directly hold two 32-bit sokol-gfx handles). This change drastically
-  simplifies the sokol_imgui.h implementatation, but requires some breaking API
+  simplifies the sokol_imgui.h implementation, but requires some breaking API
   changes (please read the updated doc section `ON USER-PROVIDED IMAGES AND SAMPLERS`
   in sokol_imgui.h)
 - sokol_gfx.h: a couple of new functions to get granular buffer and image properties
